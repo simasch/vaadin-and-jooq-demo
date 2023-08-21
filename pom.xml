@@ -169,7 +169,7 @@
                                         <excludes>flyway_schema_history</excludes>
                                     </database>
                                     <target>
-                                        <packageName>ch.jtaf.db</packageName>
+                                        <packageName>ch.martinelli.demo.db</packageName>
                                     </target>
                                 </generator>
                             </jooq>
