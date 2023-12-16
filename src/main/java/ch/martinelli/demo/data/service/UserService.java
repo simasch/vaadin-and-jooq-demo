@@ -1,15 +1,15 @@
 package ch.martinelli.demo.data.service;
 
-import ch.jtaf.db.tables.records.ApplicationUserRecord;
-import ch.jtaf.db.tables.records.UserRolesRecord;
+import ch.martinelli.demo.db.tables.records.ApplicationUserRecord;
+import ch.martinelli.demo.db.tables.records.UserRolesRecord;
 import org.jooq.DSLContext;
 import org.jooq.Result;
 import org.springframework.stereotype.Service;
 
 import java.util.Optional;
 
-import static ch.jtaf.db.tables.ApplicationUser.APPLICATION_USER;
-import static ch.jtaf.db.tables.UserRoles.USER_ROLES;
+import static ch.martinelli.demo.db.tables.ApplicationUser.APPLICATION_USER;
+import static ch.martinelli.demo.db.tables.UserRoles.USER_ROLES;
 
 @Service
 public class UserService {

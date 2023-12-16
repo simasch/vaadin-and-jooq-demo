@@ -1,6 +1,6 @@
 package ch.martinelli.demo.data.service;
 
-import ch.jtaf.db.tables.records.PersonRecord;
+import ch.martinelli.demo.db.tables.records.PersonRecord;
 import org.jooq.DSLContext;
 import org.jooq.OrderField;
 import org.jooq.Result;
@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Optional;
 
-import static ch.jtaf.db.tables.Person.PERSON;
+import static ch.martinelli.demo.db.tables.Person.PERSON;
 
 @Service
 public class PersonService {
