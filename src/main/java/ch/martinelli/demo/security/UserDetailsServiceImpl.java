@@ -1,8 +1,8 @@
 package ch.martinelli.demo.security;
 
-import ch.jtaf.db.tables.UserRoles;
-import ch.jtaf.db.tables.records.ApplicationUserRecord;
-import ch.jtaf.db.tables.records.UserRolesRecord;
+import ch.martinelli.demo.db.tables.UserRoles;
+import ch.martinelli.demo.db.tables.records.ApplicationUserRecord;
+import ch.martinelli.demo.db.tables.records.UserRolesRecord;
 import ch.martinelli.demo.data.service.UserService;
 import org.jooq.Result;
 import org.springframework.security.core.GrantedAuthority;

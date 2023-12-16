@@ -1,7 +1,7 @@
 package ch.martinelli.demo.views;
 
-import ch.jtaf.db.tables.ApplicationUser;
-import ch.jtaf.db.tables.records.ApplicationUserRecord;
+import ch.martinelli.demo.db.tables.ApplicationUser;
+import ch.martinelli.demo.db.tables.records.ApplicationUserRecord;
 import ch.martinelli.demo.security.AuthenticatedUser;
 import ch.martinelli.demo.views.helloworld.HelloWorldView;
 import ch.martinelli.demo.views.masterdetail.MasterDetailView;

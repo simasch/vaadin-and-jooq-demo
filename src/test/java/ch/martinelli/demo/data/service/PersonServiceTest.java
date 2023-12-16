@@ -1,6 +1,6 @@
 package ch.martinelli.demo.data.service;
 
-import ch.jtaf.db.tables.records.PersonRecord;
+import ch.martinelli.demo.db.tables.records.PersonRecord;
 import org.assertj.core.api.Assertions;
 import org.jooq.Result;
 import org.junit.jupiter.api.Test;

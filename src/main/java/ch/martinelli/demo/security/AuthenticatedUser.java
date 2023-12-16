@@ -1,6 +1,6 @@
 package ch.martinelli.demo.security;
 
-import ch.jtaf.db.tables.records.ApplicationUserRecord;
+import ch.martinelli.demo.db.tables.records.ApplicationUserRecord;
 import ch.martinelli.demo.data.service.UserService;
 import com.vaadin.flow.spring.security.AuthenticationContext;
 import org.springframework.security.core.userdetails.UserDetails;

@@ -1,7 +1,7 @@
 package ch.martinelli.demo.views.masterdetail;
 
-import ch.jtaf.db.tables.Person;
-import ch.jtaf.db.tables.records.PersonRecord;
+import ch.martinelli.demo.db.tables.Person;
+import ch.martinelli.demo.db.tables.records.PersonRecord;
 import ch.martinelli.demo.data.service.PersonService;
 import ch.martinelli.demo.views.MainLayout;
 import com.vaadin.flow.component.UI;
@@ -35,7 +35,7 @@ import org.springframework.orm.ObjectOptimisticLockingFailureException;
 
 import java.util.Optional;
 
-import static ch.jtaf.db.tables.Person.PERSON;
+import static ch.martinelli.demo.db.tables.Person.PERSON;
 import static io.seventytwo.vaadinjooq.util.VaadinJooqUtil.orderFields;
 
 @PageTitle("Master-Detail")
